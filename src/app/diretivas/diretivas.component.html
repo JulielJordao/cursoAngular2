@@ -1,7 +1,7 @@
 <p>
   diretivas works!
 </p>
-<ul>
+<ul >
   <li *ngFor="let teste of testes">
     {{teste}}
   </li>
@@ -9,6 +9,6 @@
 <input type="text" [(ngModel)]="teste3">
 <input type="text" [(ngModel)]="font">
 <button [style.color]="ativo ? 'blue' : 'red'" (click)="ativo = !ativo">{{teste3}}  Valor</button>
-<p highligthMouse>
+<p highligth [defaultColor]="'red'" [hightlightColor]="'blue'">
   Efeito de highLight
 </p> 

@@ -14,6 +14,8 @@ import { OperadorElvisComponent } from './operador-elvis/operador-elvis.componen
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { FundoAmareloDirective } from './shared/fundo-amarelo.directive';
 import { HighligthMouseDirective } from './shared/highligth-mouse.directive';
+import { HightlightDirective } from './shared/hightlight.directive';
+import { NgElseDirective } from './shared/ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { HighligthMouseDirective } from './shared/highligth-mouse.directive';
     OperadorElvisComponent,
     NgContentComponent,
     FundoAmareloDirective,
-    HighligthMouseDirective
+    HighligthMouseDirective,
+    HightlightDirective,
+    NgElseDirective
   ],
   imports: [
     BrowserModule,
